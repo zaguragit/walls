@@ -4,6 +4,19 @@
 
     {
 
+      "name": "Abstract Light",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight.png",
+
+      "collections": "abstract,oled,minimal",
+
+      "downloadable": true
+
+    },
+    {
+
       "name": "Leopard",
 
       "author": "Leo Shneyderis",
