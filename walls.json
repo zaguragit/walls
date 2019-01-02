@@ -84,9 +84,45 @@
       "downloadable": true
 
     },
-    
+    {
 
+      "name": "Minimal",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/minimal.png",
+
+      "collections": "minimal,abstract",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Blue Gradients",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/Bluegradient.png",
+
+      "collections": "minimal,abstract",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Misterious Planet",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/planeto.jpg",
+
+      "collections": "nature,space",
+
+      "downloadable": true
+
+    },
   ]
-
 }
 
