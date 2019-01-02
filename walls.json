@@ -17,6 +17,74 @@
       "downloadable": true
 
     },
+    {
+
+      "name": "Lemur",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/lemur.jpg",
+
+      "dimensions": "1639x2048",
+
+      "collections": "nature,fauna",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Sunset",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/pinksunset.jpg",
+
+      "collections": "nature",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Minimal Lines",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/oledlines.png",
+
+      "collections": "minimal,abstract",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Cactus",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/cactus.jpg",
+
+      "collections": "nature,flora",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Planet",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/planet.png",
+
+      "collections": "minimal,space",
+
+      "downloadable": true
+
+    },
+    
 
   ]
 
