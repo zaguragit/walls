@@ -12,7 +12,7 @@
 
       "dimensions": "1638x2048",
 
-      "collections": "nature,fauna",
+      "collections": "nature",
 
       "downloadable": true
 
@@ -27,7 +27,7 @@
 
       "dimensions": "1639x2048",
 
-      "collections": "nature,fauna",
+      "collections": "nature",
 
       "downloadable": true
 
@@ -66,7 +66,7 @@
 
       "url": "https://raw.githubusercontent.com/leoxshn/posidontheme/master/cactus.jpg",
 
-      "collections": "nature,flora",
+      "collections": "nature",
 
       "downloadable": true
 
