@@ -17,6 +17,19 @@
     },
     {
 
+      "name": "Aurora Lines",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/brightlines.png",
+
+      "collections": "minimal,abstract",
+
+      "downloadable": true
+
+    },
+    {
+
       "name": "Leopard",
 
       "author": "Leo Shneyderis",
@@ -66,7 +79,7 @@
 
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines.png",
 
-      "collections": "minimal,abstract",
+      "collections": "minimal,abstract,oled",
 
       "downloadable": true
 
