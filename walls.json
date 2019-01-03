@@ -10,7 +10,7 @@
 
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight.png",
 
-      "collections": "abstract,oled,minimal",
+      "collections": "abstract,oled",
 
       "downloadable": true
 
@@ -145,6 +145,32 @@
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/planeto.jpg",
 
       "collections": "nature,space",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Complementary",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510.png",
+
+      "collections": "abstract,minimal",
+
+      "downloadable": true
+
+    },
+    {
+
+      "name": "Material Colors",
+
+      "author": "Leo Shneyderis",
+
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1522.png",
+
+      "collections": "abstract,minimal",
 
       "downloadable": true
 
