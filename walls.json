@@ -1,6 +1,11 @@
 {
   "walls": [
     {
+      "name": "Ultimate ",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp.png"
+    },
+    {
       "name": "Abstract Light",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight.png"
