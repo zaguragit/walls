@@ -1,179 +1,69 @@
 {
-
   "Wallpapers": [
-
     {
-
       "name": "Abstract Light",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight.png",
-
-      "collections": "abstract,oled",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Aurora Lines",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/brightlines.png",
-
-      "collections": "minimal,abstract",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Leopard",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/leopard.jpg",
-
-      "dimensions": "1638x2048",
-
-      "collections": "nature",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Lemur",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/lemur.jpg",
-
-      "dimensions": "1639x2048",
-
-      "collections": "nature",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Sunset",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinksunset.jpg",
-
-      "collections": "nature",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Minimal Lines",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines.png",
-
-      "collections": "minimal,abstract,oled",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Cactus",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/cactus.jpg",
-
-      "collections": "nature",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Planet",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/planet.png",
-
-      "collections": "minimal,space",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Minimal",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/minimal.png",
-
-      "collections": "minimal,abstract",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Blue Gradients",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/Bluegradient.png",
-
-      "collections": "minimal,abstract",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Misterious Planet",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/planeto.jpg",
-
-      "collections": "nature,space",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Complementary",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510.png",
-
-      "collections": "abstract,minimal",
-
-      "downloadable": true
-
     },
     {
-
       "name": "Material Colors",
-
       "author": "Leo Shneyderis",
-
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1522.png",
-
-      "collections": "abstract,minimal",
-
-      "downloadable": true
-
     },
   ]
 }
