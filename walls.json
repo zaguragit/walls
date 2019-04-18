@@ -21,14 +21,19 @@
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines.png"
     },
     {
-      "name": "Planet",
+      "name": "Lilac Flowers",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/planet.png"
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/flowpr.png"
     },
     {
       "name": "Flat Colors",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510.png"
+    },
+    {
+      "name": "Planet",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/planet.png"
     }
   ]
 }
