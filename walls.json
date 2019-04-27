@@ -1,7 +1,12 @@
 {
   "walls": [
     {
-      "name": "Ultimate ",
+      "name": "Colors & Circles",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles.png"
+    },
+    {
+      "name": "Ultimate",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp.png"
     },
