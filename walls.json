@@ -6,11 +6,6 @@
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinkflowers.png"
     },
     {
-      "name": "Pink Pattern",
-      "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/magicalpattern.png"
-    },
-    {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp.png"
@@ -26,11 +21,6 @@
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight.png"
     },
     {
-      "name": "Oled Lines",
-      "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines.png"
-    },
-    {
       "name": "Lilac Flowers",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/flowpr.png"
@@ -44,6 +34,11 @@
       "name": "Ultra Violet",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/uv.png"
+    },
+    {
+      "name": "Oled Lines",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines.png"
     },
     {
       "name": "Colors & Circles",
