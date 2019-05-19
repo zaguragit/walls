@@ -1,9 +1,14 @@
 {
   "walls": [
     {
-      "name": "Colors & Circles",
+      "name": "Pink Flowers",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles.png"
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinkflowers.png"
+    },
+    {
+      "name": "Pink Pattern",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/magicalpattern.png"
     },
     {
       "name": "Ultimate",
@@ -39,6 +44,11 @@
       "name": "Ultra Violet",
       "author": "Leo Shneyderis",
       "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/uv.png"
+    },
+    {
+      "name": "Colors & Circles",
+      "author": "Leo Shneyderis",
+      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles.png"
     }
   ]
 }
