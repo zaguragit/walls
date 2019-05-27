@@ -3,48 +3,56 @@
     {
       "name": "Pink Flowers",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinkflowers/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/pinkflowers/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/ultimatewp/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Green & Nice",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/greennice/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/greennice/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Liquid Light",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/thelight/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Lilac Flowers",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/flowpr/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/flowpr/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Flat Colors",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/rect1510/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Ultra Violet",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/uv/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/uv/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Oled Lines",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/oledlines/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     },
     {
       "name": "Colors & Circles",
       "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles/img.png"
-      "thumb": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles/thumb.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/colorbubbles/thumb.png"
     }
   ]
 }
