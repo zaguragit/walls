@@ -3,47 +3,48 @@
     {
       "name": "Pink Flowers",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinkflowers/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/pinkflowers/img.png"
     },
     {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/ultimatewp/img.png"
     },
     {
       "name": "Green & Nice",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/greennice/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/greennice/img.png"
     },
     {
       "name": "Liquid Light",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/thelight/img.png"
     },
     {
       "name": "Lilac Flowers",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/flowpr/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/flowpr/img.png"
     },
     {
       "name": "Flat Colors",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/rect1510/img.png"
     },
     {
       "name": "Ultra Violet",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/uv/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/uv/img.png"
     },
     {
       "name": "Oled Lines",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/oledlines/img.png"
     },
     {
       "name": "Colors & Circles",
       "author": "Leo Shneyderis",
-      "url": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles/img.png"
+      "img": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles/img.png"
+      "thumb": "https://raw.githubusercontent.com/leoxshn/aquawalls/master/colorbubbles/thumb.png"
     }
   ]
 }
