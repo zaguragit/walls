@@ -1,16 +1,16 @@
 {
   "walls": [
     {
-      "name": "Pink Flowers",
-      "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/pinkflowers/img.png",
-      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/pinkflowers/thumb.jpg"
-    },
-    {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
       "img": "https://raw.githubusercontent.com/leoxshn/walls/master/ultimatewp/img.png",
       "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/ultimatewp/thumb.jpg"
+    },
+    {
+      "name": "Grass & Stones",
+      "author": "Leo Shneyderis",
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/grassnstones/img.png",
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/grassnstones/thumb.jpg"
     },
     {
       "name": "Green & Nice",
@@ -47,6 +47,12 @@
       "author": "Leo Shneyderis",
       "img": "https://raw.githubusercontent.com/leoxshn/walls/master/oledlines/img.png",
       "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/oledlines/thumb.jpg"
+    },
+    {
+      "name": "Pink Flowers",
+      "author": "Leo Shneyderis",
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/pinkflowers/img.png",
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/pinkflowers/thumb.jpg"
     },
     {
       "name": "Colors & Circles",
