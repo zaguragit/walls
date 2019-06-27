@@ -1,10 +1,22 @@
 {
   "walls": [
     {
+      "name": "Dark Bubbles",
+      "author": "Leo Shneyderis",
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/darkbubbles/img.png",
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/darkbubbles/thumb.jpg"
+    },
+    {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
       "img": "https://raw.githubusercontent.com/leoxshn/walls/master/ultimatewp/img.png",
       "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/ultimatewp/thumb.jpg"
+    },
+    {
+      "name": "Green & Nice",
+      "author": "Leo Shneyderis",
+      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/greennice/img.png",
+      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/greennice/thumb.jpg"
     },
     {
       "name": "Golden Flowers",
@@ -17,12 +29,6 @@
       "author": "Leo Shneyderis",
       "img": "https://raw.githubusercontent.com/leoxshn/walls/master/magicflower/img.png",
       "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/magicflower/thumb.jpg"
-    },
-    {
-      "name": "Green & Nice",
-      "author": "Leo Shneyderis",
-      "img": "https://raw.githubusercontent.com/leoxshn/walls/master/greennice/img.png",
-      "thumb": "https://raw.githubusercontent.com/leoxshn/walls/master/greennice/thumb.jpg"
     },
     {
       "name": "Liquid Light",
