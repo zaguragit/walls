@@ -41,6 +41,16 @@
       "dir": "rect1510"
     },
     {
+      "name": "Dark & Blue",
+      "author": "Leo Shneyderis",
+      "dir": "darknblue"
+    },
+    {
+      "name": "Cyan & Orange",
+      "author": "Leo Shneyderis",
+      "dir": "cyannorange"
+    },
+    {
       "name": "Ultra Violet",
       "author": "Leo Shneyderis",
       "dir": "uv"
@@ -54,16 +64,6 @@
       "name": "Pink Flowers",
       "author": "Leo Shneyderis",
       "dir": "pinkflowers"
-    },
-    {
-      "name": "Dark & Blue",
-      "author": "Leo Shneyderis",
-      "dir": "darknblue"
-    },
-    {
-      "name": "Cyan & Orange",
-      "author": "Leo Shneyderis",
-      "dir": "cyannorange"
     }
   ]
 }
