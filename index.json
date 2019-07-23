@@ -1,6 +1,11 @@
 {
   "walls": [
     {
+      "name": "Highlands Cow",
+      "author": "Leo Shneyderis",
+      "dir": "highlandscow"
+    },
+    {
       "name": "Dark Bubbles",
       "author": "Leo Shneyderis",
       "dir": "darkbubbles"
