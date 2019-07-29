@@ -1,6 +1,16 @@
 {
   "walls": [
     {
+      "name": "Ultimate",
+      "author": "Leo Shneyderis",
+      "dir": "ultimatewp"
+    },
+    {
+      "name": "Planet",
+      "author": "Leo Shneyderis",
+      "dir": "planet"
+    },
+    {
       "name": "Highlands Cow",
       "author": "Leo Shneyderis",
       "dir": "highlandscow"
@@ -11,11 +21,6 @@
       "dir": "darkbubbles"
     },
     {
-      "name": "Ultimate",
-      "author": "Leo Shneyderis",
-      "dir": "ultimatewp"
-    },
-    {
       "name": "Green & Nice",
       "author": "Leo Shneyderis",
       "dir": "greennice"
@@ -24,6 +29,11 @@
       "name": "Golden Flowers",
       "author": "Leo Shneyderis",
       "dir": "goldenflowers"
+    },
+    {
+      "name": "White Fire",
+      "author": "Leo Shneyderis",
+      "dir": "whitefire"
     },
     {
       "name": "Magic Flower",
