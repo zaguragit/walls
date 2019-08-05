@@ -6,11 +6,6 @@
       "dir": "ultimatewp"
     },
     {
-      "name": "Radioactive",
-      "author": "Leo Shneyderis",
-      "dir": "radioactive"
-    },
-    {
       "name": "Planet",
       "author": "Leo Shneyderis",
       "dir": "planet"
@@ -29,6 +24,11 @@
       "name": "Green & Nice",
       "author": "Leo Shneyderis",
       "dir": "greennice"
+    },
+    {
+      "name": "Lonely Fish",
+      "author": "Leo Shneyderis (shot on OnePlus)",
+      "dir": "lonelyfish"
     },
     {
       "name": "Golden Flowers",
@@ -84,6 +84,11 @@
       "name": "Pink Flowers",
       "author": "Leo Shneyderis",
       "dir": "pinkflowers"
+    },
+    {
+      "name": "Radioactive",
+      "author": "Leo Shneyderis",
+      "dir": "radioactive"
     }
   ]
 }
