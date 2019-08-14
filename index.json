@@ -1,6 +1,11 @@
 {
   "walls": [
     {
+      "name": "Wall of Flowers",
+      "author": "Leo Shneyderis (shot on OnePlus)",
+      "dir": "flowerwall"
+    },
+    {
       "name": "Ultimate",
       "author": "Leo Shneyderis",
       "dir": "ultimatewp"
