@@ -11,14 +11,19 @@
       "dir": "ultimatewp"
     },
     {
-      "name": "Planet",
+      "name": "Purple mystery",
       "author": "Leo Shneyderis",
-      "dir": "planet"
+      "dir": "purple_mystery"
     },
     {
       "name": "Highlands Cow",
       "author": "Leo Shneyderis",
       "dir": "highlandscow"
+    },
+    {
+      "name": "Planet",
+      "author": "Leo Shneyderis",
+      "dir": "planet"
     },
     {
       "name": "Dark Bubbles",
