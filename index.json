@@ -94,6 +94,11 @@
       "name": "Radioactive",
       "author": "Leo Shneyderis",
       "dir": "radioactive"
+    },
+    {
+      "name": "Sunny field",
+      "author": "Leo Shneyderis",
+      "dir": "sunny_field"
     }
   ]
 }
