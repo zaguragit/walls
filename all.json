@@ -2,115 +2,105 @@
   "walls": [
     {
       "name": "Wall of Flowers",
-      "author": "Leo Shneyderis (shot on OnePlus)",
+      "auth": "Leo Shneyderis (shot on OnePlus)",
       "dir": "flowerwall"
     },
     {
       "name": "Magic",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "magic",
       "type": "variated",
       "variants": 5
     },
     {
       "name": "Ultimate",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "ultimatewp"
     },
     {
       "name": "Purple mystery",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "purple_mystery"
     },
     {
       "name": "Highlands Cow",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "highlandscow"
     },
     {
       "name": "Planet",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "planet"
     },
     {
       "name": "Dark Bubbles",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "darkbubbles"
     },
     {
       "name": "Green & Nice",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "greennice"
     },
     {
       "name": "Lonely Fish",
-      "author": "Leo Shneyderis (shot on OnePlus)",
+      "auth": "Leo Shneyderis (shot on OnePlus)",
       "dir": "lonelyfish"
     },
     {
       "name": "Golden Flowers",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "goldenflowers"
     },
     {
       "name": "White Fire",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "whitefire"
     },
     {
       "name": "Magic Flower",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "magicflower"
     },
     {
       "name": "Liquid Light",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "thelight"
     },
     {
       "name": "Lilac Flowers",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "flowpr"
     },
     {
       "name": "Flat Colors",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "rect1510"
     },
     {
       "name": "Dark & Blue",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "darknblue"
     },
     {
       "name": "Cyan & Orange",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "cyannorange"
     },
     {
       "name": "Ultra Violet",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "uv"
     },
     {
       "name": "Oled Lines",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "oledlines"
     },
     {
       "name": "Pink Flowers",
-      "author": "Leo Shneyderis",
+      "auth": "Leo Shneyderis",
       "dir": "pinkflowers"
-    },
-    {
-      "name": "Radioactive",
-      "author": "Leo Shneyderis",
-      "dir": "radioactive"
-    },
-    {
-      "name": "Sunny field",
-      "author": "Leo Shneyderis",
-      "dir": "sunny_field"
     }
   ]
 }
