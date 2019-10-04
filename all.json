@@ -1,105 +1,105 @@
 {
   "walls": [
     {
-      "name": "Wall of Flowers",
-      "auth": "Leo Shneyderis (shot on OnePlus)",
+      "name": "Wall of flowers",
+      "by": "Leo Shneyderis (shot on OnePlus)",
       "dir": "flowerwall"
     },
     {
-      "name": "Magic",
-      "auth": "Leo Shneyderis",
-      "dir": "magic",
+      "name": "Flat fluid",
+      "by": "Leo Shneyderis",
+      "dir": "flat_fluid",
       "type": "variated",
       "variants": 5
     },
     {
       "name": "Ultimate",
-      "auth": "Leo Shneyderis",
+      "by": "Leo Shneyderis",
       "dir": "ultimatewp"
     },
     {
       "name": "Purple mystery",
-      "auth": "Leo Shneyderis",
+      "by": "Leo Shneyderis",
       "dir": "purple_mystery"
     },
     {
-      "name": "Highlands Cow",
-      "auth": "Leo Shneyderis",
+      "name": "Highlands cow",
+      "by": "Leo Shneyderis",
       "dir": "highlandscow"
     },
     {
       "name": "Planet",
-      "auth": "Leo Shneyderis",
+      "by": "Leo Shneyderis",
       "dir": "planet"
     },
     {
-      "name": "Dark Bubbles",
-      "auth": "Leo Shneyderis",
+      "name": "Dark bubbles",
+      "by": "Leo Shneyderis",
       "dir": "darkbubbles"
     },
     {
-      "name": "Green & Nice",
-      "auth": "Leo Shneyderis",
+      "name": "Green & nice",
+      "by": "Leo Shneyderis",
       "dir": "greennice"
     },
     {
-      "name": "Lonely Fish",
-      "auth": "Leo Shneyderis (shot on OnePlus)",
+      "name": "Lonely fish",
+      "by": "Leo Shneyderis (shot on OnePlus)",
       "dir": "lonelyfish"
     },
     {
-      "name": "Golden Flowers",
-      "auth": "Leo Shneyderis",
+      "name": "Golden flowers",
+      "by": "Leo Shneyderis",
       "dir": "goldenflowers"
     },
     {
-      "name": "White Fire",
-      "auth": "Leo Shneyderis",
+      "name": "White fire",
+      "by": "Leo Shneyderis",
       "dir": "whitefire"
     },
     {
-      "name": "Magic Flower",
-      "auth": "Leo Shneyderis",
+      "name": "Magic flower",
+      "by": "Leo Shneyderis",
       "dir": "magicflower"
     },
     {
-      "name": "Liquid Light",
-      "auth": "Leo Shneyderis",
+      "name": "Liquid light",
+      "by": "Leo Shneyderis",
       "dir": "thelight"
     },
     {
-      "name": "Lilac Flowers",
-      "auth": "Leo Shneyderis",
+      "name": "Lilac flowers",
+      "by": "Leo Shneyderis",
       "dir": "flowpr"
     },
     {
-      "name": "Flat Colors",
-      "auth": "Leo Shneyderis",
+      "name": "Flat colors",
+      "by": "Leo Shneyderis",
       "dir": "rect1510"
     },
     {
-      "name": "Dark & Blue",
-      "auth": "Leo Shneyderis",
+      "name": "Dark & blue",
+      "by": "Leo Shneyderis",
       "dir": "darknblue"
     },
     {
-      "name": "Cyan & Orange",
-      "auth": "Leo Shneyderis",
+      "name": "Cyan & orange",
+      "by": "Leo Shneyderis",
       "dir": "cyannorange"
     },
     {
-      "name": "Ultra Violet",
-      "auth": "Leo Shneyderis",
+      "name": "Ultra violet",
+      "by": "Leo Shneyderis",
       "dir": "uv"
     },
     {
-      "name": "Oled Lines",
-      "auth": "Leo Shneyderis",
+      "name": "Oled lines",
+      "by": "Leo Shneyderis",
       "dir": "oledlines"
     },
     {
-      "name": "Pink Flowers",
-      "auth": "Leo Shneyderis",
+      "name": "Pink flowers",
+      "by": "Leo Shneyderis",
       "dir": "pinkflowers"
     }
   ]
