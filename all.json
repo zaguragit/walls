@@ -2,103 +2,83 @@
   "all": [
     {
       "txt": "Wall of flowers",
-      "by": "Leo Shneyderis (shot on OnePlus)",
       "in": "flowerwall"
     },
     {
       "txt": "Flat fluid",
-      "by": "Leo Shneyderis",
       "in": "flat_fluid",
       "ext": "var5"
     },
     {
       "txt": "Ultimate",
-      "by": "Leo Shneyderis",
       "in": "ultimatewp"
     },
     {
       "txt": "Purple mystery",
-      "by": "Leo Shneyderis",
       "in": "purple_mystery"
     },
     {
       "txt": "Highlands cow",
-      "by": "Leo Shneyderis",
       "in": "highlandscow"
     },
     {
       "txt": "Planet",
-      "by": "Leo Shneyderis",
       "in": "planet"
     },
     {
       "txt": "Dark bubbles",
-      "by": "Leo Shneyderis",
       "in": "darkbubbles"
     },
     {
       "txt": "Green & nice",
-      "by": "Leo Shneyderis",
       "in": "greennice"
     },
     {
       "txt": "Lonely fish",
-      "by": "Leo Shneyderis (shot on OnePlus)",
       "in": "lonelyfish"
     },
     {
       "txt": "Golden flowers",
-      "by": "Leo Shneyderis",
       "in": "goldenflowers"
     },
     {
       "txt": "White fire",
-      "by": "Leo Shneyderis",
       "in": "whitefire"
     },
     {
       "txt": "Magic flower",
-      "by": "Leo Shneyderis",
       "in": "magicflower"
     },
     {
       "txt": "Liquid light",
-      "by": "Leo Shneyderis",
       "in": "thelight"
     },
     {
       "txt": "Lilac flowers",
-      "by": "Leo Shneyderis",
       "in": "flowpr"
     },
     {
       "txt": "Flat colors",
-      "by": "Leo Shneyderis",
       "in": "rect1510"
     },
     {
       "txt": "Dark & blue",
-      "by": "Leo Shneyderis",
       "in": "darknblue"
     },
     {
       "txt": "Cyan & orange",
-      "by": "Leo Shneyderis",
       "in": "cyannorange"
     },
     {
       "txt": "Ultra violet",
-      "by": "Leo Shneyderis",
       "in": "uv"
     },
     {
       "txt": "Oled lines",
-      "by": "Leo Shneyderis",
       "in": "oledlines"
     },
     {
       "txt": "Pink flowers",
-      "by": "Leo Shneyderis",
       "in": "pinkflowers"
     }
   ]
