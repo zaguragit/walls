@@ -3,104 +3,104 @@
     {
       "name": "Wall of flowers",
       "by": "Leo Shneyderis (shot on OnePlus)",
-      "dir": "flowerwall"
+      "in": "flowerwall"
     },
     {
       "name": "Flat fluid",
       "by": "Leo Shneyderis",
-      "dir": "flat_fluid",
+      "in": "flat_fluid",
       "type": "variated",
       "variants": 5
     },
     {
       "name": "Ultimate",
       "by": "Leo Shneyderis",
-      "dir": "ultimatewp"
+      "in": "ultimatewp"
     },
     {
       "name": "Purple mystery",
       "by": "Leo Shneyderis",
-      "dir": "purple_mystery"
+      "in": "purple_mystery"
     },
     {
       "name": "Highlands cow",
       "by": "Leo Shneyderis",
-      "dir": "highlandscow"
+      "in": "highlandscow"
     },
     {
       "name": "Planet",
       "by": "Leo Shneyderis",
-      "dir": "planet"
+      "in": "planet"
     },
     {
       "name": "Dark bubbles",
       "by": "Leo Shneyderis",
-      "dir": "darkbubbles"
+      "in": "darkbubbles"
     },
     {
       "name": "Green & nice",
       "by": "Leo Shneyderis",
-      "dir": "greennice"
+      "in": "greennice"
     },
     {
       "name": "Lonely fish",
       "by": "Leo Shneyderis (shot on OnePlus)",
-      "dir": "lonelyfish"
+      "in": "lonelyfish"
     },
     {
       "name": "Golden flowers",
       "by": "Leo Shneyderis",
-      "dir": "goldenflowers"
+      "in": "goldenflowers"
     },
     {
       "name": "White fire",
       "by": "Leo Shneyderis",
-      "dir": "whitefire"
+      "in": "whitefire"
     },
     {
       "name": "Magic flower",
       "by": "Leo Shneyderis",
-      "dir": "magicflower"
+      "in": "magicflower"
     },
     {
       "name": "Liquid light",
       "by": "Leo Shneyderis",
-      "dir": "thelight"
+      "in": "thelight"
     },
     {
       "name": "Lilac flowers",
       "by": "Leo Shneyderis",
-      "dir": "flowpr"
+      "in": "flowpr"
     },
     {
       "name": "Flat colors",
       "by": "Leo Shneyderis",
-      "dir": "rect1510"
+      "in": "rect1510"
     },
     {
       "name": "Dark & blue",
       "by": "Leo Shneyderis",
-      "dir": "darknblue"
+      "in": "darknblue"
     },
     {
       "name": "Cyan & orange",
       "by": "Leo Shneyderis",
-      "dir": "cyannorange"
+      "in": "cyannorange"
     },
     {
       "name": "Ultra violet",
       "by": "Leo Shneyderis",
-      "dir": "uv"
+      "in": "uv"
     },
     {
       "name": "Oled lines",
       "by": "Leo Shneyderis",
-      "dir": "oledlines"
+      "in": "oledlines"
     },
     {
       "name": "Pink flowers",
       "by": "Leo Shneyderis",
-      "dir": "pinkflowers"
+      "in": "pinkflowers"
     }
   ]
 }
