@@ -1,100 +1,99 @@
 {
-  "walls": [
-    {
-      "name": "Wall of Flowers",
-      "author": "Leo Shneyderis (shot on OnePlus)",
-      "dir": "flowerwall"
-    },
-    {
-      "name": "Purple mystery",
-      "author": "Leo Shneyderis",
-      "dir": "purple_mystery"
-    },
-    {
-      "name": "Ultimate",
-      "author": "Leo Shneyderis",
-      "dir": "ultimatewp"
-    },
-    {
-      "name": "Highlands Cow",
-      "author": "Leo Shneyderis",
-      "dir": "highlandscow"
-    },
-    {
-      "name": "Planet",
-      "author": "Leo Shneyderis",
-      "dir": "planet"
-    },
-    {
-      "name": "Dark Bubbles",
-      "author": "Leo Shneyderis",
-      "dir": "darkbubbles"
-    },
-    {
-      "name": "Green & Nice",
-      "author": "Leo Shneyderis",
-      "dir": "greennice"
-    },
-    {
-      "name": "Lonely Fish",
-      "author": "Leo Shneyderis (shot on OnePlus)",
-      "dir": "lonelyfish"
-    },
-    {
-      "name": "Golden Flowers",
-      "author": "Leo Shneyderis",
-      "dir": "goldenflowers"
-    },
-    {
-      "name": "White Fire",
-      "author": "Leo Shneyderis",
-      "dir": "whitefire"
-    },
-    {
-      "name": "Magic Flower",
-      "author": "Leo Shneyderis",
-      "dir": "magicflower"
-    },
-    {
-      "name": "Liquid Light",
-      "author": "Leo Shneyderis",
-      "dir": "thelight"
-    },
-    {
-      "name": "Lilac Flowers",
-      "author": "Leo Shneyderis",
-      "dir": "flowpr"
-    },
-    {
-      "name": "Flat Colors",
-      "author": "Leo Shneyderis",
-      "dir": "rect1510"
-    },
-    {
-      "name": "Dark & Blue",
-      "author": "Leo Shneyderis",
-      "dir": "darknblue"
-    },
-    {
-      "name": "Cyan & Orange",
-      "author": "Leo Shneyderis",
-      "dir": "cyannorange"
-    },
-    {
-      "name": "Ultra Violet",
-      "author": "Leo Shneyderis",
-      "dir": "uv"
-    },
-    {
-      "name": "Oled Lines",
-      "author": "Leo Shneyderis",
-      "dir": "oledlines"
-    },
-    {
-      "name": "Pink Flowers",
-      "author": "Leo Shneyderis",
-      "dir": "pinkflowers"
-    }
-  ]
+	"": [
+		{
+			"is": "Wall of flowers",
+			"by": "Leo Shn - Shot on OnePlus",
+			"in": "flowerwall"
+		},
+		{
+			"is": "Ultimate",
+			"by": "Leo Shn",
+			"in": "ultimatewp"
+		},
+		{
+			"is": "Purple mystery",
+			"by": "Leo Shn",
+			"in": "purple_mystery"
+		},
+		{
+			"is": "Highlands cow",
+			"by": "Leo Shn",
+			"in": "highlandscow"
+		},
+		{
+			"is": "Squirrel",
+			"by": "Leo Shn",
+			"in": "squirrel"
+		},
+		{
+			"is": "Golden flowers",
+			"by": "Leo Shn",
+			"in": "goldenflowers"
+		},
+		{
+			"is": "White fire",
+			"by": "Leo Shn",
+			"in": "whitefire"
+		},
+		{
+			"is": "Magic flower",
+			"by": "Leo Shn",
+			"in": "magicflower"
+		},
+		{
+			"is": "Liquid light",
+			"by": "Leo Shn",
+			"in": "thelight"
+		},
+		{
+			"is": "Lilac flowers",
+			"by": "Leo Shn",
+			"in": "flowpr"
+		},
+		{
+			"is": "Flat colors",
+			"by": "Leo Shn",
+			"in": "rect1510"
+		},
+		{
+			"is": "Dark & blue",
+			"by": "Leo Shn",
+			"in": "darknblue"
+		},
+		{
+			"is": "Planet",
+			"by": "Leo Shn",
+			"in": "planet"
+		},
+		{
+			"is": "Dark bubbles",
+			"by": "Leo Shn",
+			"in": "darkbubbles"
+		},
+		{
+			"is": "Green & nice",
+			"by": "Leo Shn",
+			"in": "greennice"
+		},
+		{
+			"is": "Cyan & orange",
+			"by": "Leo Shn",
+			"in": "cyannorange"
+		},
+		{
+			"is": "Ultra violet",
+			"by": "Leo Shn",
+			"in": "uv"
+		},
+		{
+			"is": "Oled lines",
+			"by": "Leo Shn",
+			"in": "oledlines"
+		},
+		{
+			"is": "Pink flowers",
+			"by": "Leo Shn",
+			"in": "pinkflowers"
+		}
+	]
 }
-
