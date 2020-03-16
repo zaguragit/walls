@@ -1,16 +1,18 @@
-import org.w3c.dom.Element
-import org.w3c.dom.HTMLDivElement
-import org.w3c.dom.Image
+import org.w3c.dom.*
 import org.w3c.xhr.XMLHttpRequest
 import kotlin.browser.document
 import kotlin.dom.addClass
-import kotlin.js.Json
 
 lateinit var scroll: HTMLDivElement
 lateinit var popup: HTMLDivElement
 lateinit var popupWall: Image
 lateinit var popupWallName: Element
+lateinit var popupWallDownload: HTMLAnchorElement
 lateinit var popupWallAuthor: Element
+lateinit var title: HTMLElement
+lateinit var copyright: HTMLElement
+
+const val blurFilter = "blur(15px)"
 
 fun main() {
     val http = XMLHttpRequest()
@@ -23,11 +25,14 @@ fun main() {
         }
     }
     http.send();
-    scroll = document.getById("scroll")!! as HTMLDivElement
-    popup = document.getById("popup")!! as HTMLDivElement
-    popupWall = document.getById("wall")!! as Image
-    popupWallName = document.getById("name")!!
-    popupWallAuthor = document.getById("author")!!
+    scroll = getById("scroll")!! as HTMLDivElement
+    popup = getById("popup")!! as HTMLDivElement
+    popupWall = getById("wall")!! as Image
+    popupWallName = getById("name")!!
+    popupWallDownload = getById("download")!! as HTMLAnchorElement
+    popupWallAuthor = getById("author")!!
+    title = getById("title")!! as HTMLElement
+    copyright = getById("copyright")!! as HTMLElement
 }
 
 fun start(string: String) {
@@ -47,6 +52,10 @@ fun start(string: String) {
                 val name = tmpName
                 val author = tmpAuthor
                 addEventListener("click", {
+                    document.body!!.style.overflowY = "hidden"
+                    scroll.style.filter = blurFilter
+                    title.style.filter = blurFilter
+                    copyright.style.filter = blurFilter
                     popup.style.display = "block"
                     val newSrc = "./img/$dir/img.png"
                     if (popupWall.src != newSrc) {
@@ -56,6 +65,10 @@ fun start(string: String) {
                     }
                     popupWallName.textContent = name
                     popupWallAuthor.textContent = author
+                    popupWallDownload.apply {
+                        type = "application/octet-stream"
+                        href = newSrc
+                    }
                 })
             })
         } else when (line[0]) {

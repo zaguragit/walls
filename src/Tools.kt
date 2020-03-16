@@ -1,4 +1,4 @@
 
-import org.w3c.dom.Document
+import kotlin.browser.document
 
-inline fun Document.getById(string: String) = this.getElementById(string)
+inline fun getById(string: String) = document.getElementById(string)

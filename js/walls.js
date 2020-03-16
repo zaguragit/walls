@@ -49,6 +49,15 @@ if (typeof kotlin === 'undefined') {
   function set_popupWallName(popupWallName_0) {
     popupWallName = popupWallName_0;
   }
+  var popupWallDownload;
+  function get_popupWallDownload() {
+    if (popupWallDownload == null)
+      return throwUPAE('popupWallDownload');
+    return popupWallDownload;
+  }
+  function set_popupWallDownload(popupWallDownload_0) {
+    popupWallDownload = popupWallDownload_0;
+  }
   var popupWallAuthor;
   function get_popupWallAuthor() {
     if (popupWallAuthor == null)
@@ -58,6 +67,25 @@ if (typeof kotlin === 'undefined') {
   function set_popupWallAuthor(popupWallAuthor_0) {
     popupWallAuthor = popupWallAuthor_0;
   }
+  var title;
+  function get_title() {
+    if (title == null)
+      return throwUPAE('title');
+    return title;
+  }
+  function set_title(title_0) {
+    title = title_0;
+  }
+  var copyright;
+  function get_copyright() {
+    if (copyright == null)
+      return throwUPAE('copyright');
+    return copyright;
+  }
+  function set_copyright(copyright_0) {
+    copyright = copyright_0;
+  }
+  var blurFilter;
   function main$lambda(closure$http) {
     return function (it) {
       if (closure$http.readyState === toShort(4)) {
@@ -67,7 +95,7 @@ if (typeof kotlin === 'undefined') {
     };
   }
   function main() {
-    var tmp$, tmp$_0, tmp$_1;
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4;
     var http = new XMLHttpRequest();
     http.open('GET', 'http://raw.githubusercontent.com/leoxshn/walls/master/index', true);
     http.onreadystatechange = main$lambda(http);
@@ -76,10 +104,19 @@ if (typeof kotlin === 'undefined') {
     set_popup(Kotlin.isType(tmp$_0 = ensureNotNull(document.getElementById('popup')), HTMLDivElement) ? tmp$_0 : throwCCE());
     set_popupWall(Kotlin.isType(tmp$_1 = ensureNotNull(document.getElementById('wall')), Image) ? tmp$_1 : throwCCE());
     set_popupWallName(ensureNotNull(document.getElementById('name')));
+    var string = 'download';
+    set_popupWallDownload(Kotlin.isType(tmp$_2 = ensureNotNull(document.getElementById(string)), HTMLAnchorElement) ? tmp$_2 : throwCCE());
     set_popupWallAuthor(ensureNotNull(document.getElementById('author')));
+    set_title(Kotlin.isType(tmp$_3 = ensureNotNull(document.getElementById('title')), HTMLElement) ? tmp$_3 : throwCCE());
+    var string_0 = 'copyright';
+    set_copyright(Kotlin.isType(tmp$_4 = ensureNotNull(document.getElementById(string_0)), HTMLElement) ? tmp$_4 : throwCCE());
   }
   function start$lambda$lambda(closure$dir, closure$name, closure$author) {
     return function (it) {
+      ensureNotNull(document.body).style.overflowY = 'hidden';
+      get_scroll().style.filter = blurFilter;
+      get_title().style.filter = blurFilter;
+      get_copyright().style.filter = blurFilter;
       get_popup().style.display = 'block';
       var newSrc = './img/' + closure$dir + '/img.png';
       if (!equals(get_popupWall().src, newSrc)) {
@@ -88,6 +125,9 @@ if (typeof kotlin === 'undefined') {
         get_popupWall().src = newSrc;
       }get_popupWallName().textContent = closure$name;
       get_popupWallAuthor().textContent = closure$author;
+      var $receiver = get_popupWallDownload();
+      $receiver.type = 'application/octet-stream';
+      $receiver.href = newSrc;
       return Unit;
     };
   }
@@ -130,8 +170,8 @@ if (typeof kotlin === 'undefined') {
       }
     }
   }
-  var getById = defineInlineFunction('walls.getById_faw09z$', function ($receiver, string) {
-    return $receiver.getElementById(string);
+  var getById = defineInlineFunction('walls.getById_61zpoe$', function (string) {
+    return document.getElementById(string);
   });
   Object.defineProperty(_, 'scroll', {
     get: get_scroll,
@@ -149,14 +189,32 @@ if (typeof kotlin === 'undefined') {
     get: get_popupWallName,
     set: set_popupWallName
   });
+  Object.defineProperty(_, 'popupWallDownload', {
+    get: get_popupWallDownload,
+    set: set_popupWallDownload
+  });
   Object.defineProperty(_, 'popupWallAuthor', {
     get: get_popupWallAuthor,
     set: set_popupWallAuthor
   });
+  Object.defineProperty(_, 'title', {
+    get: get_title,
+    set: set_title
+  });
+  Object.defineProperty(_, 'copyright', {
+    get: get_copyright,
+    set: set_copyright
+  });
+  Object.defineProperty(_, 'blurFilter', {
+    get: function () {
+      return blurFilter;
+    }
+  });
   $$importsForInline$$.walls = _;
   _.main = main;
   _.start_61zpoe$ = start;
-  _.getById_faw09z$ = getById;
+  _.getById_61zpoe$ = getById;
+  blurFilter = 'blur(15px)';
   main();
   Kotlin.defineModule('walls', _);
   return _;
