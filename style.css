@@ -22,7 +22,7 @@
 	margin-left:15px;
 	margin-top:8px;
 	margin-bottom:12px;}
-.card img{border-radius:17.5px 17.5px 0 0;object-fit:cover;height:236px;width:100%;}
+.card img{border-radius:17.5px 17.5px 0 0;object-fit:cover;height:236px;width:100%;border-bottom:solid 1.5px #1d222a;}
 #scroll{
     display:grid;
     grid-template-columns: auto auto auto;

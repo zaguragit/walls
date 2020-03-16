@@ -18,11 +18,9 @@ fun main() {
     val http = XMLHttpRequest()
     http.open("GET", "https://leoxshn.github.io/walls/index", true)
     http.onreadystatechange = {
-        if (http.readyState == 4.toShort()) {
-            if (http.status == 200.toShort() || http.status == 0.toShort()) {
+        if (http.readyState == 4.toShort())
+            if (http.status == 200.toShort() || http.status == 0.toShort())
                 start(http.responseText)
-            }
-        }
     }
     http.send();
     scroll = getById("scroll")!! as HTMLDivElement
