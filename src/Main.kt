@@ -6,48 +6,62 @@ import kotlin.browser.document
 import kotlin.dom.addClass
 import kotlin.js.Json
 
-const val repoUrl = "http://raw.githubusercontent.com/leoxshn/walls/master"
-
 lateinit var scroll: HTMLDivElement
 lateinit var popup: HTMLDivElement
+lateinit var popupWall: Image
+lateinit var popupWallName: Element
+lateinit var popupWallAuthor: Element
 
 fun main() {
     val http = XMLHttpRequest()
-    http.open("GET", "$repoUrl/index.json", true)
+    http.open("GET", "http://raw.githubusercontent.com/leoxshn/walls/master/index", true)
     http.onreadystatechange = {
-        if (http.readyState == 4.toShort())
-            start(http.responseText)
+        if (http.readyState == 4.toShort()) {
+            if (http.status == 200.toShort() || http.status == 0.toShort()) {
+                start(http.responseText)
+            }
+        }
     }
-    scroll = document.getElementById("scroll")!! as HTMLDivElement
-    popup = document.getElementById("popup")!! as HTMLDivElement
     http.send();
+    scroll = document.getById("scroll")!! as HTMLDivElement
+    popup = document.getById("popup")!! as HTMLDivElement
+    popupWall = document.getById("wall")!! as Image
+    popupWallName = document.getById("name")!!
+    popupWallAuthor = document.getById("author")!!
 }
 
 fun start(string: String) {
-    val popupWall = document.getElementById("wall")!! as Image
-    val popupWallName = document.getElementById("name")!!
-    val popupWallAuthor = document.getElementById("author")!!
-    JSON.parse<Json>(string) { _, obj ->
-        if (jsTypeOf(obj) == "object" && (obj as Json)["d"] != null) {
+    println(string)
+    var tmpName = ""
+    var tmpAuthor = ""
+    var tmpDir = ""
+    for (line in string.lines()) {
+        if (line.isEmpty()) {
             scroll.appendChild(document.createElement("div").apply {
                 addClass("card")
-                appendChild(Image().apply { src = repoUrl + "/" + obj["d"].toString() + "/thumb.jpg" })
+                appendChild(Image().apply { src = "./img/$tmpDir/thumb.jpg" })
                 appendChild(document.createElement("p").apply {
-                    textContent = obj["n"].toString()
+                    textContent = tmpName
                 })
+                val dir = tmpDir
+                val name = tmpName
+                val author = tmpAuthor
                 addEventListener("click", {
                     popup.style.display = "block"
-                    val newSrc = repoUrl + "/" + obj["d"].toString() + "/img.png"
+                    val newSrc = "./img/$dir/img.png"
                     if (popupWall.src != newSrc) {
                         popupWall.src = ""
-                        popupWall.src = repoUrl + "/" + obj["d"].toString() + "/thumb.jpg"
+                        popupWall.src = "./img/$dir/thumb.jpg"
                         popupWall.src = newSrc
                     }
-                    popupWallName.textContent = obj["n"].toString()
-                    popupWallAuthor.textContent = obj["a"].toString()
+                    popupWallName.textContent = name
+                    popupWallAuthor.textContent = author
                 })
             })
+        } else when (line[0]) {
+            'n' -> tmpName = line.substring(2)
+            'a' -> tmpAuthor = line.substring(2)
+            'd' -> tmpDir = line.substring(2)
         }
-        obj
     }
 }
