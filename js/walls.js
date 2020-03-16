@@ -97,7 +97,7 @@ if (typeof kotlin === 'undefined') {
   function main() {
     var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4;
     var http = new XMLHttpRequest();
-    http.open('GET', 'http://raw.githubusercontent.com/leoxshn/walls/master/index', true);
+    http.open('GET', 'https://leoxshn.github.io/walls/index', true);
     http.onreadystatechange = main$lambda(http);
     http.send();
     set_scroll(Kotlin.isType(tmp$ = ensureNotNull(document.getElementById('scroll')), HTMLDivElement) ? tmp$ : throwCCE());

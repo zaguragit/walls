@@ -16,7 +16,7 @@ const val blurFilter = "blur(15px)"
 
 fun main() {
     val http = XMLHttpRequest()
-    http.open("GET", "http://raw.githubusercontent.com/leoxshn/walls/master/index", true)
+    http.open("GET", "https://leoxshn.github.io/walls/index", true)
     http.onreadystatechange = {
         if (http.readyState == 4.toShort()) {
             if (http.status == 200.toShort() || http.status == 0.toShort()) {
