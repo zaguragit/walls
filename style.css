@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @font-face{font-family:"posidonsans";src:url("https://posidon.io/PosidonSans.ttf");}
-@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;}*{font-weight:normal;font-family:'Lexend Deca',sans-serif;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:0.8s;}#copyright{color:#21272d;font-size:14px;text-align:center;}h1{font-family:posidonsans;text-align:center;font-size:64px;}
+@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;}*{scrollbar-width:thin;font-weight:normal;font-family:'Lexend Deca',sans-serif;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:0.8s;}#copyright{color:#21272d;font-size:14px;text-align:center;}h1{font-family:posidonsans;text-align:center;font-size:64px;}
 .card{
     animation-name:alpha-in;
     animation-duration:0.1s;
