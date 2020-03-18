@@ -1,36 +1,3 @@
-<!DOCTYPE HTML>
-<html><head>
-    <meta charset="utf-8">
-	<title>posidon walls</title>
-	<meta name="author" content="Leo Shneyderis">
-	<meta name="description" content="Original wallpapers">
-	<meta name="keywords" content="posidon, walls, wallpaper, wallpapers, wall, photo, vector, svg, picture">
-	<link rel="icon" href="fav.png">
-    <link rel="stylesheet" href="style.css">
-    <meta name="theme-color" content="#000000">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="js/kotlin.js"></script>
-</head><body>
-    <h1 id="title">walls</h1>
-    <div id="scroll"></div>
-    <p id="copyright">Copyright &copy; Leo Shneyderis, posidon <script type="text/javascript">document.write(new Date().getFullYear())</script></p>
-    <div id="popup">
-        <div id="popupBG" onclick="document.getElementById('popup').style.display='none';document.body.style.overflowY=null;document.getElementById('scroll').style.filter=null;document.getElementById('title').style.filter=null;document.getElementById('copyright').style.filter=null;"></div>
-        <div id="popupWindow">
-            <img id="wall"/>
-            <div style="vertical-align:middle;">
-                <div style="display:inline-block;">
-                    <h2 id="name"></h2>
-                    <p id="author"></p>
-                </div>
-                <a id="download" style="display:inline-block;">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 229.26665 67.733332 67.733335" height="22" width="22" style="display:block;">
-                        <path style="color-interpolation:sRGB;fill:#17C25B;fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 29.602316,237.73332 v 34.58354 L 14.41925,257.13427 8.5147155,263.13523 33.819826,288.53332 59.218619,263.13523 53.31409,257.13427 38.131017,272.22362 v -34.4903 z"/>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</body>
-    <script src="js/walls.js"></script>
-</html>
+<!DOCTYPE HTML><html><head><meta charset="utf-8"><script src="js/kotlin.js"></script><link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head><body><span id="topBar"><a href="https://posidon.io" draggable="false"><h2 style="margin-top:12px;margin-bottom:6px;">
+<img src="res/rsk.png" height=42px draggable="false" style="vertical-align:middle;margin-right:17px;margin-left:10px"/>posidon</h2></a><a class="topRightIcon mobile" href="https://twitter.com/posidon" draggable="false"><img src="res/twitter.svg" height=26px/></a><a class="topRightIcon mobile" href="https://github.com/leoxshn" draggable="false"><img src="res/git.svg" height=26px/></a><a class="topRight" href="https://posidon.io/launcher" draggable="false">posidon launcher</a><a class="topRight" href="https://posidon.io/texter" draggable="false">Texter</a><a class="topRight" href="https://github.com/leoxshn" draggable="false">Github</a><a class="topRight" href="https://twitter.com/posidon" draggable="false">Twitter</a></span><h1 id="title">walls</h1><div id="scroll"></div><p id="copyright">Copyright &copy; Leo Shneyderis, posidon <script type="text/javascript">document.write(new Date().getFullYear())</script></p><div id="popup"><div id="popupBG" onclick="document.getElementById('popup').style.display='none';document.body.style.overflowY=null;document.getElementById('scroll').style.filter=null;document.getElementById('title').style.filter=null;document.getElementById('topBar').style.filter=null;document.getElementById('copyright').style.filter=null;"></div>
+<div id="popupWindow"><img id="wall" draggable="false"/><div style="display:flex;align-items:center;"><div style="flex-grow:1;"><h2 id="name"></h2><p id="author"></p></div><a id="download" draggable="false" style="float:right;margin-right:16px;font-size:0;vertical-align:middle;line-height:0;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 229.26665 67.733332 67.733335" height="22" width="22" style="display:inline-block;"><path style="color-interpolation:sRGB;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 29.602316,237.73332 v 34.58354 L 14.41925,257.13427 8.5147155,263.13523 33.819826,288.53332 59.218619,263.13523 53.31409,257.13427 38.131017,272.22362 v -34.4903 z"/></svg><p>download</p></a></div></div></div></body><script src="js/walls.js"></script></html>
