@@ -10,6 +10,7 @@ lateinit var popupWallName: Element
 lateinit var popupWallDownload: HTMLAnchorElement
 lateinit var popupWallAuthor: Element
 lateinit var title: HTMLElement
+lateinit var topBar: HTMLSpanElement
 lateinit var copyright: HTMLElement
 
 const val blurFilter = "blur(15px)"
@@ -30,6 +31,7 @@ fun main() {
     popupWallDownload = getById("download")!! as HTMLAnchorElement
     popupWallAuthor = getById("author")!!
     title = getById("title")!! as HTMLElement
+    topBar = getById("topBar")!! as HTMLSpanElement
     copyright = getById("copyright")!! as HTMLElement
 }
 
@@ -53,6 +55,7 @@ fun start(string: String) {
                     document.body!!.style.overflowY = "hidden"
                     scroll.style.filter = blurFilter
                     title.style.filter = blurFilter
+                    topBar.style.filter = blurFilter
                     copyright.style.filter = blurFilter
                     popup.style.display = "block"
                     val newSrc = "./img/$dir/img.png"

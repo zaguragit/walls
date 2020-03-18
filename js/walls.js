@@ -76,6 +76,15 @@ if (typeof kotlin === 'undefined') {
   function set_title(title_0) {
     title = title_0;
   }
+  var topBar;
+  function get_topBar() {
+    if (topBar == null)
+      return throwUPAE('topBar');
+    return topBar;
+  }
+  function set_topBar(topBar_0) {
+    topBar = topBar_0;
+  }
   var copyright;
   function get_copyright() {
     if (copyright == null)
@@ -88,14 +97,14 @@ if (typeof kotlin === 'undefined') {
   var blurFilter;
   function main$lambda(closure$http) {
     return function (it) {
-      if (closure$http.readyState === toShort(4)) {
-        if (closure$http.status === toShort(200) || closure$http.status === toShort(0)) {
+      if (closure$http.readyState === toShort(4))
+        if (closure$http.status === toShort(200) || closure$http.status === toShort(0))
           start(closure$http.responseText);
-        }}return Unit;
+      return Unit;
     };
   }
   function main() {
-    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4;
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5;
     var http = new XMLHttpRequest();
     http.open('GET', 'https://leoxshn.github.io/walls/index', true);
     http.onreadystatechange = main$lambda(http);
@@ -108,14 +117,16 @@ if (typeof kotlin === 'undefined') {
     set_popupWallDownload(Kotlin.isType(tmp$_2 = ensureNotNull(document.getElementById(string)), HTMLAnchorElement) ? tmp$_2 : throwCCE());
     set_popupWallAuthor(ensureNotNull(document.getElementById('author')));
     set_title(Kotlin.isType(tmp$_3 = ensureNotNull(document.getElementById('title')), HTMLElement) ? tmp$_3 : throwCCE());
+    set_topBar(Kotlin.isType(tmp$_4 = ensureNotNull(document.getElementById('topBar')), HTMLSpanElement) ? tmp$_4 : throwCCE());
     var string_0 = 'copyright';
-    set_copyright(Kotlin.isType(tmp$_4 = ensureNotNull(document.getElementById(string_0)), HTMLElement) ? tmp$_4 : throwCCE());
+    set_copyright(Kotlin.isType(tmp$_5 = ensureNotNull(document.getElementById(string_0)), HTMLElement) ? tmp$_5 : throwCCE());
   }
   function start$lambda$lambda(closure$dir, closure$name, closure$author) {
     return function (it) {
       ensureNotNull(document.body).style.overflowY = 'hidden';
       get_scroll().style.filter = blurFilter;
       get_title().style.filter = blurFilter;
+      get_topBar().style.filter = blurFilter;
       get_copyright().style.filter = blurFilter;
       get_popup().style.display = 'block';
       var newSrc = './img/' + closure$dir + '/img.png';
@@ -200,6 +211,10 @@ if (typeof kotlin === 'undefined') {
   Object.defineProperty(_, 'title', {
     get: get_title,
     set: set_title
+  });
+  Object.defineProperty(_, 'topBar', {
+    get: get_topBar,
+    set: set_topBar
   });
   Object.defineProperty(_, 'copyright', {
     get: get_copyright,
