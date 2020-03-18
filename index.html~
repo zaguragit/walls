@@ -10,20 +10,6 @@
     <meta name="theme-color" content="#000000">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="js/kotlin.js"></script>
-    
-    <meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="width">
-    <meta property="og:url" content="https://posidon.io/walls">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@posidon">
-    <meta name="twitter:creator" content="@posidon">
-	<meta name="twitter:image:src" content="https://posidon.io/img/banner.png">
-	<meta name="twitter:title" content="European Travel Destinations ">
-    <meta name="twitter:description" content="Original wallpapers">
-    <meta property="og:title" content="posidon walls">
-    <meta property="og:description" content="Original wallpapers">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="http://posidon.io/img/banner.png">
 </head><body>
     <h1 id="title">walls</h1>
     <div id="scroll"></div>
@@ -32,14 +18,14 @@
         <div id="popupBG" onclick="document.getElementById('popup').style.display='none';document.body.style.overflowY=null;document.getElementById('scroll').style.filter=null;document.getElementById('title').style.filter=null;document.getElementById('copyright').style.filter=null;"></div>
         <div id="popupWindow">
             <img id="wall"/>
-            <div style="display:flex;align-items:center;">
-                <div style="flex-grow:1;">
+            <div style="vertical-align:middle;">
+                <div style="display:inline-block;">
                     <h2 id="name"></h2>
                     <p id="author"></p>
                 </div>
-                <a id="download" style="float:right;margin-right:16px;">
+                <a id="download" style="display:inline-block;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 229.26665 67.733332 67.733335" height="22" width="22" style="display:block;">
-                        <path style="color-interpolation:sRGB;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 29.602316,237.73332 v 34.58354 L 14.41925,257.13427 8.5147155,263.13523 33.819826,288.53332 59.218619,263.13523 53.31409,257.13427 38.131017,272.22362 v -34.4903 z"/>
+                        <path style="color-interpolation:sRGB;fill:#17C25B;fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 29.602316,237.73332 v 34.58354 L 14.41925,257.13427 8.5147155,263.13523 33.819826,288.53332 59.218619,263.13523 53.31409,257.13427 38.131017,272.22362 v -34.4903 z"/>
                     </svg>
                 </a>
             </div>
