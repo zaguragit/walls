@@ -182,6 +182,7 @@ if (typeof kotlin === 'undefined') {
         var type = tmpType.v;
         $receiver.addEventListener('click', start$lambda$lambda(type, dir, name, author));
         tmp$_0.appendChild($receiver);
+        tmpType.v = '';
       } else {
         switch (line.charCodeAt(0)) {
           case 110:

@@ -89,6 +89,7 @@ fun start(string: String) {
                     }
                 })
             })
+            tmpType = ""
         } else when (line[0]) {
             'n' -> tmpName = line.substring(2)
             't' -> tmpType = line.substring(2)
