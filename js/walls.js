@@ -121,7 +121,7 @@ if (typeof kotlin === 'undefined') {
     var string_0 = 'copyright';
     set_copyright(Kotlin.isType(tmp$_5 = ensureNotNull(document.getElementById(string_0)), HTMLElement) ? tmp$_5 : throwCCE());
   }
-  function start$lambda$lambda(closure$dir, closure$name, closure$author) {
+  function start$lambda$lambda(closure$type, closure$dir, closure$name, closure$author) {
     return function (it) {
       ensureNotNull(document.body).style.overflowY = 'hidden';
       get_scroll().style.filter = blurFilter;
@@ -129,16 +129,25 @@ if (typeof kotlin === 'undefined') {
       get_topBar().style.filter = blurFilter;
       get_copyright().style.filter = blurFilter;
       get_popup().style.display = 'block';
-      var newSrc = './img/' + closure$dir + '/img.png';
-      if (!equals(get_popupWall().src, newSrc)) {
-        get_popupWall().src = '';
-        get_popupWall().src = './img/' + closure$dir + '/thumb.jpg';
-        get_popupWall().src = newSrc;
-      }get_popupWallName().textContent = closure$name;
+      var newSrc;
+      if (equals(closure$type, 'svg')) {
+        newSrc = './img/' + closure$dir + '/img.svg';
+        if (!equals(get_popupWall().src, newSrc)) {
+          get_popupWall().src = '';
+          get_popupWall().src = newSrc;
+        }} else {
+        newSrc = './img/' + closure$dir + '/img.png';
+        if (!equals(get_popupWall().src, newSrc)) {
+          get_popupWall().src = '';
+          get_popupWall().src = './img/' + closure$dir + '/thumb.jpg';
+          get_popupWall().src = newSrc;
+        }}
+      get_popupWallName().textContent = closure$name;
       get_popupWallAuthor().textContent = closure$author;
       var $receiver = get_popupWallDownload();
+      var closure$newSrc = newSrc;
       $receiver.type = 'application/octet-stream';
-      $receiver.href = newSrc;
+      $receiver.href = closure$newSrc;
       return Unit;
     };
   }
@@ -148,6 +157,7 @@ if (typeof kotlin === 'undefined') {
     var tmpName = {v: ''};
     var tmpAuthor = {v: ''};
     var tmpDir = {v: ''};
+    var tmpType = {v: ''};
     tmp$ = lines(string).iterator();
     while (tmp$.hasNext()) {
       var line = tmp$.next();
@@ -164,12 +174,16 @@ if (typeof kotlin === 'undefined') {
         var dir = tmpDir.v;
         var name = tmpName.v;
         var author = tmpAuthor.v;
-        $receiver.addEventListener('click', start$lambda$lambda(dir, name, author));
+        var type = tmpType.v;
+        $receiver.addEventListener('click', start$lambda$lambda(type, dir, name, author));
         tmp$_0.appendChild($receiver);
       } else {
         switch (line.charCodeAt(0)) {
           case 110:
             tmpName.v = line.substring(2);
+            break;
+          case 116:
+            tmpType.v = line.substring(2);
             break;
           case 97:
             tmpAuthor.v = line.substring(2);

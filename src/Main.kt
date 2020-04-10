@@ -40,6 +40,7 @@ fun start(string: String) {
     var tmpName = ""
     var tmpAuthor = ""
     var tmpDir = ""
+    var tmpType = ""
     for (line in string.lines()) {
         if (line.isEmpty()) {
             scroll.appendChild(document.createElement("div").apply {
@@ -51,6 +52,7 @@ fun start(string: String) {
                 val dir = tmpDir
                 val name = tmpName
                 val author = tmpAuthor
+                val type = tmpType
                 addEventListener("click", {
                     document.body!!.style.overflowY = "hidden"
                     scroll.style.filter = blurFilter
@@ -58,22 +60,35 @@ fun start(string: String) {
                     topBar.style.filter = blurFilter
                     copyright.style.filter = blurFilter
                     popup.style.display = "block"
-                    val newSrc = "./img/$dir/img.png"
-                    if (popupWall.src != newSrc) {
-                        popupWall.src = ""
-                        popupWall.src = "./img/$dir/thumb.jpg"
-                        popupWall.src = newSrc
+                    val newSrc: String
+                    when (type) {
+                        "svg" -> {
+                            newSrc = "./img/$dir/img.svg"
+                            if (popupWall.src != newSrc) {
+                                popupWall.src = ""
+                                popupWall.src = newSrc
+                            }
+                        }
+                        else -> {
+                            newSrc = "./img/$dir/img.png"
+                            if (popupWall.src != newSrc) {
+                                popupWall.src = ""
+                                popupWall.src = "./img/$dir/thumb.jpg"
+                                popupWall.src = newSrc
+                            }
+                        }
                     }
                     popupWallName.textContent = name
                     popupWallAuthor.textContent = author
                     popupWallDownload.apply {
-                        type = "application/octet-stream"
+                        this.type = "application/octet-stream"
                         href = newSrc
                     }
                 })
             })
         } else when (line[0]) {
             'n' -> tmpName = line.substring(2)
+            't' -> tmpType = line.substring(2)
             'a' -> tmpAuthor = line.substring(2)
             'd' -> tmpDir = line.substring(2)
         }
