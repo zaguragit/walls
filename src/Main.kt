@@ -45,7 +45,10 @@ fun start(string: String) {
         if (line.isEmpty()) {
             scroll.appendChild(document.createElement("div").apply {
                 addClass("card")
-                appendChild(Image().apply { src = "./img/$tmpDir/thumb.jpg" })
+                appendChild(Image().apply { src = when (tmpType) {
+                    "svg" -> "./img/$tmpDir/img.svg"
+                    else -> "./img/$tmpDir/thumb.jpg"
+                }})
                 appendChild(document.createElement("p").apply {
                     textContent = tmpName
                 })
