@@ -166,7 +166,12 @@ if (typeof kotlin === 'undefined') {
         var $receiver = document.createElement('div');
         addClass($receiver, ['card']);
         var $receiver_0 = new Image();
-        $receiver_0.src = './img/' + tmpDir.v + '/thumb.jpg';
+        var tmp$_1;
+        if (equals(tmpType.v, 'svg'))
+          tmp$_1 = './img/' + tmpDir.v + '/img.svg';
+        else
+          tmp$_1 = './img/' + tmpDir.v + '/thumb.jpg';
+        $receiver_0.src = tmp$_1;
         $receiver.appendChild($receiver_0);
         var $receiver_1 = document.createElement('p');
         $receiver_1.textContent = tmpName.v;
