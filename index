@@ -3,9 +3,9 @@ t:svg
 a:Leo Shn
 d:mint
 
-n:Macro bee
+n:Nature
 a:Leo Shn
-d:bee
+d:nature
 
 n:Cold mountains
 a:Leo Shn
@@ -14,6 +14,10 @@ d:cold_mount
 n:Spruce trees
 a:Leo Shn
 d:spruce
+
+n:Macro bee
+a:Leo Shn
+d:bee
 
 n:Snowy leaves
 a:Leo Shn
