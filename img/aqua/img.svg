@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -8,115 +6,85 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="128"
-   height="256"
-   viewBox="0 0 33.866667 67.733335"
-   version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="omg.svg"
-   inkscape:export-filename="/home/leo/Desktop/omg.png"
-   inkscape:export-xdpi="1080.0001"
-   inkscape:export-ydpi="1080.0001">
+   version="1.1"
+   viewBox="0 0 33.866667 67.733335"
+   height="256"
+   width="128">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient821"
-       osb:paint="gradient">
+       osb:paint="gradient"
+       id="linearGradient821">
       <stop
-         style="stop-color:#3df0f0;stop-opacity:1;"
+         id="stop817"
          offset="0"
-         id="stop817" />
+         style="stop-color:#3df0f0;stop-opacity:1;" />
       <stop
-         style="stop-color:#3df0f0;stop-opacity:0;"
+         id="stop819"
          offset="1"
-         id="stop819" />
+         style="stop-color:#3df0f0;stop-opacity:0;" />
     </linearGradient>
     <meshgradient
-       inkscape:collect="always"
-       id="meshgradient849"
-       gradientUnits="userSpaceOnUse"
-       x="1.6036168"
+       type="bicubic"
        y="224.05486"
-       type="bicubic">
+       x="1.6036168"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient849">
       <meshrow
          id="meshrow6443">
         <meshpatch
            id="meshpatch6445">
           <stop
-             path="c 19.5742,8.28531  23.1123,3.07388  34.4014,3.07374"
+             id="stop6447"
              style="stop-color:#010003;stop-opacity:1"
-             id="stop6447" />
+             path="c 19.5742,8.28531  23.1123,3.07388  34.4014,3.07374" />
           <stop
-             path="c 4.27622,22.0434  15.5017,42.7502  3.87535,78.8248"
+             id="stop6449"
              style="stop-color:#000000;stop-opacity:1"
-             id="stop6449" />
+             path="c 4.27622,22.0434  15.5017,42.7502  3.87535,78.8248" />
           <stop
-             path="c -7.14614,-3.60813  -24.1809,0.667771  -48.5664,-3.34117"
+             id="stop6451"
              style="stop-color:#0025e0;stop-opacity:1"
-             id="stop6451" />
+             path="c -7.14614,-3.60813  -24.1809,0.667771  -48.5664,-3.34117" />
           <stop
-             path="c -0.667582,-23.6465  -3.20624,-46.2245  10.2897,-78.5574"
+             id="stop6453"
              style="stop-color:#001e2d;stop-opacity:1"
-             id="stop6453" />
+             path="c -0.667582,-23.6465  -3.20624,-46.2245  10.2897,-78.5574" />
         </meshpatch>
       </meshrow>
     </meshgradient>
     <meshgradient
-       type="bicubic"
-       y="229.6256"
-       x="-26.777565"
-       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(12.828938,-5.4790169)"
        id="meshgradient6497"
-       inkscape:collect="always"
-       gradientTransform="translate(12.828938,-5.4790169)">
+       gradientUnits="userSpaceOnUse"
+       x="-26.777565"
+       y="229.6256"
+       type="bicubic">
       <meshrow
          id="meshrow13531">
         <meshpatch
            id="meshpatch13533">
           <stop
-             path="c 12.2053,6.85222  48.2941,0.586098  55.3328,0.585975"
+             id="stop13535"
              style="stop-color:#1424ff;stop-opacity:0"
-             id="stop13535" />
+             path="c 12.2053,6.85222  48.2941,0.586098  55.3328,0.585975" />
           <stop
-             path="c -18.3143,9.67812  -16.6281,48.1769  -49.8024,55.2952"
+             id="stop13537"
              style="stop-color:#0066ff;stop-opacity:0"
-             id="stop13537" />
+             path="c -18.3143,9.67812  -16.6281,48.1769  -49.8024,55.2952" />
           <stop
-             path="c -10.6031,39.5127  74.5688,23.0056  82.8814,22.6295"
+             id="stop13539"
              style="stop-color:#3cffde;stop-opacity:1"
-             id="stop13539" />
+             path="c -10.6031,39.5127  74.5688,23.0056  82.8814,22.6295" />
           <stop
-             path="c -8.16608,-0.313506  -127.066,-13.595  -88.4118,-78.5107"
+             id="stop13541"
              style="stop-color:#229fff;stop-opacity:1"
-             id="stop13541" />
+             path="c -8.16608,-0.313506  -127.066,-13.595  -88.4118,-78.5107" />
         </meshpatch>
       </meshrow>
     </meshgradient>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="87.323455"
-     inkscape:cy="108.05605"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     inkscape:snap-page="true"
-     inkscape:window-width="1465"
-     inkscape:window-height="1017"
-     inkscape:window-x="1095"
-     inkscape:window-y="30"
-     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -130,25 +98,23 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-229.26662)">
-    <rect
-       style="opacity:1;fill:url(#meshgradient849);fill-opacity:1;stroke:none;stroke-width:0.06;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-       id="rect815"
-       width="33.866665"
-       height="67.73333"
-       x="0"
-       y="229.26662"
-       ry="0" />
+     transform="translate(0,-229.26662)"
+     id="layer1">
     <rect
        ry="0"
        y="229.26662"
        x="0"
        height="67.73333"
        width="33.866665"
+       id="rect815"
+       style="opacity:1;fill:url(#meshgradient849);fill-opacity:1;stroke:none;stroke-width:0.06;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <rect
+       style="opacity:1;fill:url(#meshgradient6497);fill-opacity:1;stroke:none;stroke-width:0.06;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect6455"
-       style="opacity:1;fill:url(#meshgradient6497);fill-opacity:1;stroke:none;stroke-width:0.06;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+       width="33.866665"
+       height="67.73333"
+       x="0"
+       y="229.26662"
+       ry="0" />
   </g>
 </svg>
