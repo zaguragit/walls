@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @font-face{font-family:"posidonsans";src:url("https://posidon.io/PosidonSans.ttf");}
 @keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;max-width:1080px;margin-left:auto;margin-right:auto;}*{scrollbar-width:thin;font-weight:normal;font-family:'Lexend Deca',sans-serif;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:.4s;}#copyright{color:#21272d;font-size:14px;text-align:center;}h1{font-family:posidonsans;text-align:center;color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:normal;animation-name:alpha-in;animation-duration:.3s;}h2{font-family:posidonsans;color:#ffffff;font-size:24px;display:inline-block;}
-@keyframes b{from{padding-left:20px;padding-right:20px;}to{padding-left:26px;padding-right:26px;}}
-@keyframes bi{to{padding-left:20px;padding-right:20px;}from{padding-left:26px;padding-right:26px;}}
 .card{animation-name:alpha-in;
     animation-duration:.2s;
     cursor:pointer;
     display:inline-block;
-	background:rgba(13,18,22,.67);
-	border:solid 1.5px #1d222a;
+	background:#0D0E0F;
+	box-shadow:0 0 0 1.5px inset #111213;
 	margin-right:16px;
 	margin-left:16px;
 	margin-top:16px;
@@ -39,7 +37,7 @@
 	margin-left:15px;
 	margin-top:8px;
 	margin-bottom:12px;}
-.card img{border-radius:17.5px 17.5px 0 0;object-fit:cover;height:236px;width:100%;border-bottom:solid 1.5px #1d222a;}
+.card img{border-radius:17.5px 17.5px 0 0;object-fit:cover;height:236px;width:100%;border-bottom:solid 1.5px #1D1E1F;}
 #scroll{
     display:grid;
     grid-template-columns: auto auto auto auto auto;
@@ -67,7 +65,7 @@
 @media only screen and (max-width:780px){#scroll{display:grid;grid-template-columns:auto auto auto;}}
 @media only screen and (max-width:700px){.topRight{animation:none;padding-left:16px;padding-right:16px;margin-left:4px;margin-right:4px;border-radius:56px;font-size: 14px;}.topRight:hover{animation:none;padding-left:16px;padding-right:16px;}}
 @media only screen and (max-width:580px){h1{color:#ffffff;font-size:48px;margin-top:72px;margin-bottom:32px;font-weight:normal;}.topRight{display:none;}.topRightIcon.mobile{display:block;}#scroll{display:grid;grid-template-columns:auto auto;}#popupWindow{pointer-events:none;position:fixed;top:0;left:0;width:100%;height:100%;}#popupWindow *{pointer-events:auto;}#wall{box-shadow:rgba(0,0,0,.5) 0 7px 18px;border-radius:15px;border:none;max-width:calc(100% - 24px);max-height:calc(100% - 142px);position:fixed;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}#download{position:fixed;top:calc(100% - 32px);left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:rgba(255,255,255,.25);padding:12px;border-radius:50px;}#download p{display:inline-block;color:#ffffff;font-size:15px;vertical-align:top;margin-top:11px;margin-left:6px;margin-right:4px;}}
-@media only screen and (min-width:581px){.mobile{display:none;}#download p{display:none;}.card:hover{background:rgb(20,29,40);border-color:#2d2e4a;}.card:hover img{border-color:#2d2e4a;}#download:hover{background-color:rgba(255,255,255,.3);}#popupWindow{box-shadow:rgba(0,0,0,.5) 0 20px 30px;background:rgba(13,18,22,.67);border:solid 1.5px #1d222a;border-radius:18px;position:fixed;max-width:360px;max-height:75%;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}}
+@media only screen and (min-width:581px){.mobile{display:none;}#download p{display:none;}.card:hover{background:#111213;box-shadow:0 0 0 1.5px inset #1D1E1F;}.card:hover img{border-color:#1D1E1F;}#download:hover{background-color:rgba(255,255,255,.3);}#popupWindow{box-shadow:rgba(0,0,0,.5) 0 20px 30px;background:rgba(13,18,22,.67);border:solid 1.5px #1d222a;border-radius:18px;position:fixed;max-width:360px;max-height:75%;top:50%;left:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}}
 
 
 
