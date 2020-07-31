@@ -3,253 +3,134 @@ if (typeof kotlin === 'undefined') {
 }var walls = function (_, Kotlin) {
   'use strict';
   var $$importsForInline$$ = _.$$importsForInline$$ || (_.$$importsForInline$$ = {});
-  var throwUPAE = Kotlin.throwUPAE;
-  var toShort = Kotlin.toShort;
-  var Unit = Kotlin.kotlin.Unit;
   var ensureNotNull = Kotlin.ensureNotNull;
   var throwCCE = Kotlin.throwCCE;
-  var println = Kotlin.kotlin.io.println_s8jyv4$;
+  var toShort = Kotlin.toShort;
   var lines = Kotlin.kotlin.text.lines_gw00vp$;
   var addClass = Kotlin.kotlin.dom.addClass_hhb33f$;
   var equals = Kotlin.equals;
+  var Unit = Kotlin.kotlin.Unit;
   var defineInlineFunction = Kotlin.defineInlineFunction;
-  var scroll;
-  function get_scroll() {
-    if (scroll == null)
-      return throwUPAE('scroll');
-    return scroll;
-  }
-  function set_scroll(scroll_0) {
-    scroll = scroll_0;
-  }
-  var popup;
-  function get_popup() {
-    if (popup == null)
-      return throwUPAE('popup');
-    return popup;
-  }
-  function set_popup(popup_0) {
-    popup = popup_0;
-  }
-  var popupWall;
-  function get_popupWall() {
-    if (popupWall == null)
-      return throwUPAE('popupWall');
-    return popupWall;
-  }
-  function set_popupWall(popupWall_0) {
-    popupWall = popupWall_0;
-  }
-  var popupWallName;
-  function get_popupWallName() {
-    if (popupWallName == null)
-      return throwUPAE('popupWallName');
-    return popupWallName;
-  }
-  function set_popupWallName(popupWallName_0) {
-    popupWallName = popupWallName_0;
-  }
-  var popupWallDownload;
-  function get_popupWallDownload() {
-    if (popupWallDownload == null)
-      return throwUPAE('popupWallDownload');
-    return popupWallDownload;
-  }
-  function set_popupWallDownload(popupWallDownload_0) {
-    popupWallDownload = popupWallDownload_0;
-  }
-  var popupWallAuthor;
-  function get_popupWallAuthor() {
-    if (popupWallAuthor == null)
-      return throwUPAE('popupWallAuthor');
-    return popupWallAuthor;
-  }
-  function set_popupWallAuthor(popupWallAuthor_0) {
-    popupWallAuthor = popupWallAuthor_0;
-  }
-  var title;
-  function get_title() {
-    if (title == null)
-      return throwUPAE('title');
-    return title;
-  }
-  function set_title(title_0) {
-    title = title_0;
-  }
-  var topBar;
-  function get_topBar() {
-    if (topBar == null)
-      return throwUPAE('topBar');
-    return topBar;
-  }
-  function set_topBar(topBar_0) {
-    topBar = topBar_0;
-  }
-  var copyright;
-  function get_copyright() {
-    if (copyright == null)
-      return throwUPAE('copyright');
-    return copyright;
-  }
-  function set_copyright(copyright_0) {
-    copyright = copyright_0;
-  }
-  var blurFilter;
-  function main$lambda(closure$http) {
-    return function (it) {
-      if (closure$http.readyState === toShort(4))
-        if (closure$http.status === toShort(200) || closure$http.status === toShort(0))
-          start(closure$http.responseText);
-      return Unit;
-    };
-  }
-  function main() {
-    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5;
-    var http = new XMLHttpRequest();
-    http.open('GET', 'https://leoxshn.github.io/walls/index', true);
-    http.onreadystatechange = main$lambda(http);
-    http.send();
-    set_scroll(Kotlin.isType(tmp$ = ensureNotNull(document.getElementById('scroll')), HTMLDivElement) ? tmp$ : throwCCE());
-    set_popup(Kotlin.isType(tmp$_0 = ensureNotNull(document.getElementById('popup')), HTMLDivElement) ? tmp$_0 : throwCCE());
-    set_popupWall(Kotlin.isType(tmp$_1 = ensureNotNull(document.getElementById('wall')), Image) ? tmp$_1 : throwCCE());
-    set_popupWallName(ensureNotNull(document.getElementById('name')));
-    var string = 'download';
-    set_popupWallDownload(Kotlin.isType(tmp$_2 = ensureNotNull(document.getElementById(string)), HTMLAnchorElement) ? tmp$_2 : throwCCE());
-    set_popupWallAuthor(ensureNotNull(document.getElementById('author')));
-    set_title(Kotlin.isType(tmp$_3 = ensureNotNull(document.getElementById('title')), HTMLElement) ? tmp$_3 : throwCCE());
-    set_topBar(Kotlin.isType(tmp$_4 = ensureNotNull(document.getElementById('topBar')), HTMLSpanElement) ? tmp$_4 : throwCCE());
-    var string_0 = 'copyright';
-    set_copyright(Kotlin.isType(tmp$_5 = ensureNotNull(document.getElementById(string_0)), HTMLElement) ? tmp$_5 : throwCCE());
-  }
-  function start$lambda$lambda(closure$type, closure$dir, closure$name, closure$author) {
+  function main$lambda$lambda$lambda(closure$blurFilter, closure$scroll, closure$title, closure$topBar, closure$copyright, closure$popup, closure$type, closure$dir, closure$popupWall, closure$name, closure$popupWallName, closure$author, closure$popupWallAuthor, closure$popupWallDownload) {
     return function (it) {
       ensureNotNull(document.body).style.overflowY = 'hidden';
-      get_scroll().style.filter = blurFilter;
-      get_title().style.filter = blurFilter;
-      get_topBar().style.filter = blurFilter;
-      get_copyright().style.filter = blurFilter;
-      get_popup().style.display = 'block';
+      closure$scroll.style.filter = closure$blurFilter;
+      closure$title.style.filter = closure$blurFilter;
+      closure$topBar.style.filter = closure$blurFilter;
+      closure$copyright.style.filter = closure$blurFilter;
+      closure$popup.style.display = 'block';
       var newSrc;
       if (equals(closure$type, 'svg')) {
         newSrc = './img/' + closure$dir + '/img.svg';
-        if (!equals(get_popupWall().src, newSrc)) {
-          get_popupWall().src = '';
-          get_popupWall().src = newSrc;
+        if (!equals(closure$popupWall.src, newSrc)) {
+          closure$popupWall.src = '';
+          closure$popupWall.src = newSrc;
         }} else {
         newSrc = './img/' + closure$dir + '/img.png';
-        if (!equals(get_popupWall().src, newSrc)) {
-          get_popupWall().src = '';
-          get_popupWall().src = './img/' + closure$dir + '/thumb.jpg';
-          get_popupWall().src = newSrc;
+        if (!equals(closure$popupWall.src, newSrc)) {
+          closure$popupWall.src = '';
+          closure$popupWall.src = './img/' + closure$dir + '/thumb.jpg';
+          closure$popupWall.src = newSrc;
         }}
-      get_popupWallName().textContent = closure$name;
-      get_popupWallAuthor().textContent = closure$author;
-      var $receiver = get_popupWallDownload();
+      closure$popupWallName.textContent = closure$name;
+      closure$popupWallAuthor.textContent = closure$author;
+      var $receiver = closure$popupWallDownload;
       var closure$newSrc = newSrc;
       $receiver.type = 'application/octet-stream';
       $receiver.href = closure$newSrc;
       return Unit;
     };
   }
-  function start(string) {
-    var tmp$;
-    println(string);
-    var tmpName = {v: ''};
-    var tmpAuthor = {v: ''};
-    var tmpDir = {v: ''};
-    var tmpType = {v: ''};
-    tmp$ = lines(string).iterator();
-    while (tmp$.hasNext()) {
-      var line = tmp$.next();
-      if (line.length === 0) {
-        var tmp$_0 = get_scroll();
-        var $receiver = document.createElement('div');
-        addClass($receiver, ['card']);
-        var $receiver_0 = new Image();
-        var tmp$_1;
-        if (equals(tmpType.v, 'svg'))
-          tmp$_1 = './img/' + tmpDir.v + '/img.svg';
-        else
-          tmp$_1 = './img/' + tmpDir.v + '/thumb.jpg';
-        $receiver_0.src = tmp$_1;
-        $receiver.appendChild($receiver_0);
-        var $receiver_1 = document.createElement('p');
-        $receiver_1.textContent = tmpName.v;
-        $receiver.appendChild($receiver_1);
-        var dir = tmpDir.v;
-        var name = tmpName.v;
-        var author = tmpAuthor.v;
-        var type = tmpType.v;
-        $receiver.addEventListener('click', start$lambda$lambda(type, dir, name, author));
-        tmp$_0.appendChild($receiver);
-        tmpType.v = '';
-      } else {
-        switch (line.charCodeAt(0)) {
-          case 110:
-            tmpName.v = line.substring(2);
-            break;
-          case 116:
-            tmpType.v = line.substring(2);
-            break;
-          case 97:
-            tmpAuthor.v = line.substring(2);
-            break;
-          case 100:
-            tmpDir.v = line.substring(2);
-            break;
-        }
-      }
-    }
+  function main$lambda(closure$http, closure$scroll, closure$blurFilter, closure$title, closure$topBar, closure$copyright, closure$popup, closure$popupWall, closure$popupWallName, closure$popupWallAuthor, closure$popupWallDownload) {
+    return function (it) {
+      var tmp$;
+      if (closure$http.readyState === toShort(4)) {
+        if (closure$http.status === toShort(200) || closure$http.status === toShort(0)) {
+          var string = closure$http.responseText;
+          var tmpName = {v: ''};
+          var tmpAuthor = {v: ''};
+          var tmpDir = {v: ''};
+          var tmpType = {v: ''};
+          tmp$ = lines(string).iterator();
+          while (tmp$.hasNext()) {
+            var line = tmp$.next();
+            if (line.length === 0) {
+              var tmp$_0 = closure$scroll;
+              var $receiver = document.createElement('div');
+              var closure$blurFilter_0 = closure$blurFilter;
+              var closure$scroll_0 = closure$scroll;
+              var closure$title_0 = closure$title;
+              var closure$topBar_0 = closure$topBar;
+              var closure$copyright_0 = closure$copyright;
+              var closure$popup_0 = closure$popup;
+              var closure$popupWall_0 = closure$popupWall;
+              var closure$popupWallName_0 = closure$popupWallName;
+              var closure$popupWallAuthor_0 = closure$popupWallAuthor;
+              var closure$popupWallDownload_0 = closure$popupWallDownload;
+              addClass($receiver, ['card']);
+              var $receiver_0 = new Image();
+              var tmp$_1;
+              if (equals(tmpType.v, 'svg'))
+                tmp$_1 = './img/' + tmpDir.v + '/img.svg';
+              else
+                tmp$_1 = './img/' + tmpDir.v + '/thumb.jpg';
+              $receiver_0.src = tmp$_1;
+              $receiver.appendChild($receiver_0);
+              var $receiver_1 = document.createElement('p');
+              $receiver_1.textContent = tmpName.v;
+              $receiver.appendChild($receiver_1);
+              var dir = tmpDir.v;
+              var name = tmpName.v;
+              var author = tmpAuthor.v;
+              var type = tmpType.v;
+              $receiver.addEventListener('click', main$lambda$lambda$lambda(closure$blurFilter_0, closure$scroll_0, closure$title_0, closure$topBar_0, closure$copyright_0, closure$popup_0, type, dir, closure$popupWall_0, name, closure$popupWallName_0, author, closure$popupWallAuthor_0, closure$popupWallDownload_0));
+              tmp$_0.appendChild($receiver);
+              tmpType.v = '';
+            } else {
+              switch (line.charCodeAt(0)) {
+                case 110:
+                  tmpName.v = line.substring(2);
+                  break;
+                case 116:
+                  tmpType.v = line.substring(2);
+                  break;
+                case 97:
+                  tmpAuthor.v = line.substring(2);
+                  break;
+                case 100:
+                  tmpDir.v = line.substring(2);
+                  break;
+              }
+            }
+          }
+        }}return Unit;
+    };
   }
-  var getById = defineInlineFunction('walls.getById_61zpoe$', function (string) {
-    return document.getElementById(string);
-  });
-  Object.defineProperty(_, 'scroll', {
-    get: get_scroll,
-    set: set_scroll
-  });
-  Object.defineProperty(_, 'popup', {
-    get: get_popup,
-    set: set_popup
-  });
-  Object.defineProperty(_, 'popupWall', {
-    get: get_popupWall,
-    set: set_popupWall
-  });
-  Object.defineProperty(_, 'popupWallName', {
-    get: get_popupWallName,
-    set: set_popupWallName
-  });
-  Object.defineProperty(_, 'popupWallDownload', {
-    get: get_popupWallDownload,
-    set: set_popupWallDownload
-  });
-  Object.defineProperty(_, 'popupWallAuthor', {
-    get: get_popupWallAuthor,
-    set: set_popupWallAuthor
-  });
-  Object.defineProperty(_, 'title', {
-    get: get_title,
-    set: set_title
-  });
-  Object.defineProperty(_, 'topBar', {
-    get: get_topBar,
-    set: set_topBar
-  });
-  Object.defineProperty(_, 'copyright', {
-    get: get_copyright,
-    set: set_copyright
-  });
-  Object.defineProperty(_, 'blurFilter', {
-    get: function () {
-      return blurFilter;
-    }
+  function main() {
+    var tmp$, tmp$_0, tmp$_1, tmp$_2, tmp$_3, tmp$_4, tmp$_5;
+    var blurFilter = 'blur(15px)';
+    var http = new XMLHttpRequest();
+    http.open('GET', 'https://lposidon.github.io/walls/index', true);
+    var scroll = Kotlin.isType(tmp$ = ensureNotNull(document.getElementById('scroll')), HTMLDivElement) ? tmp$ : throwCCE();
+    var popup = Kotlin.isType(tmp$_0 = ensureNotNull(document.getElementById('popup')), HTMLDivElement) ? tmp$_0 : throwCCE();
+    var popupWall = Kotlin.isType(tmp$_1 = ensureNotNull(document.getElementById('wall')), Image) ? tmp$_1 : throwCCE();
+    var popupWallName = ensureNotNull(document.getElementById('name'));
+    var id = 'download';
+    var popupWallDownload = Kotlin.isType(tmp$_2 = ensureNotNull(document.getElementById(id)), HTMLAnchorElement) ? tmp$_2 : throwCCE();
+    var popupWallAuthor = ensureNotNull(document.getElementById('author'));
+    var title = Kotlin.isType(tmp$_3 = ensureNotNull(document.getElementById('title')), HTMLElement) ? tmp$_3 : throwCCE();
+    var topBar = Kotlin.isType(tmp$_4 = ensureNotNull(document.getElementById('topBar')), HTMLSpanElement) ? tmp$_4 : throwCCE();
+    var id_0 = 'copyright';
+    var copyright = Kotlin.isType(tmp$_5 = ensureNotNull(document.getElementById(id_0)), HTMLElement) ? tmp$_5 : throwCCE();
+    http.onreadystatechange = main$lambda(http, scroll, blurFilter, title, topBar, copyright, popup, popupWall, popupWallName, popupWallAuthor, popupWallDownload);
+    http.send();
+  }
+  var get = defineInlineFunction('walls.get_61zpoe$', function (id) {
+    return document.getElementById(id);
   });
   $$importsForInline$$.walls = _;
   _.main = main;
-  _.start_61zpoe$ = start;
-  _.getById_61zpoe$ = getById;
-  blurFilter = 'blur(15px)';
+  _.get_61zpoe$ = get;
   main();
   Kotlin.defineModule('walls', _);
   return _;

@@ -1,4 +1,4 @@
 
 import kotlin.browser.document
 
-inline fun getById(string: String) = document.getElementById(string)
+inline fun get(id: String) = document.getElementById(id)
