@@ -1,7 +1,7 @@
 import org.w3c.dom.*
 import org.w3c.xhr.XMLHttpRequest
-import kotlin.browser.document
-import kotlin.dom.addClass
+import kotlinx.browser.document
+import kotlinx.dom.addClass
 
 fun main() {
 
@@ -10,15 +10,13 @@ fun main() {
     val http = XMLHttpRequest()
     http.open("GET", "https://lposidon.github.io/walls/index", true)
 
+    val main = get("main")!! as HTMLDivElement
     val scroll = get("scroll")!! as HTMLDivElement
     val popup = get("popup")!! as HTMLDivElement
     val popupWall = get("wall")!! as Image
     val popupWallName = get("name")!!
     val popupWallDownload = get("download")!! as HTMLAnchorElement
     val popupWallAuthor = get("author")!!
-    val title = get("title")!! as HTMLElement
-    val topBar = get("topBar")!! as HTMLSpanElement
-    val copyright = get("copyright")!! as HTMLElement
 
     http.onreadystatechange = {
         if (http.readyState == 4.toShort()) {
@@ -46,11 +44,10 @@ fun main() {
                             val author = tmpAuthor
                             val type = tmpType
                             addEventListener("click", {
-                                document.body!!.style.overflowY = "hidden"
-                                scroll.style.filter = blurFilter
-                                title.style.filter = blurFilter
-                                topBar.style.filter = blurFilter
-                                copyright.style.filter = blurFilter
+                                main.style.apply {
+                                    overflowY = "hidden"
+                                    filter = blurFilter
+                                }
                                 popup.style.display = "block"
                                 val newSrc: String
                                 when (type) {
@@ -89,5 +86,5 @@ fun main() {
             }
         }
     }
-    http.send();
+    http.send()
 }
