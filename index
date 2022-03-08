@@ -1,19 +1,10 @@
-n:Vibrant sky
+n:Purple sunset
 a:Zagura
-d:vibrantsky
+d:purple_mount_sunset
 
-n:Wangan
-t:svg
-a:Koutsie
-d:wangan
-
-n:Water magic
+n:Highlands cow
 a:Zagura
-d:water_magic
-
-n:Pixel aurora
-a:Zagura
-d:pixel_aurora
+d:hilandcow
 
 n:Aqua
 a:Zagura
@@ -49,17 +40,9 @@ n:Spruce trees
 a:Zagura
 d:spruce
 
-n:Macro bee
-a:Zagura
-d:bee
-
 n:Snowy leaves
 a:Zagura
 d:cold_leaves
-
-n:Wall of flowers
-a:Zagura - Shot on OnePlus
-d:flowerwall
 
 n:Ultimate
 t:svg
@@ -71,9 +54,30 @@ t:svg
 a:Zagura
 d:prplmyst
 
-n:Highlands cow
+n:Vibrant sky
 a:Zagura
-d:hilandcow
+d:vibrantsky
+
+n:Macro bee
+a:Zagura
+d:bee
+
+n:Wangan
+t:svg
+a:Koutsie
+d:wangan
+
+n:Wall of flowers
+a:Zagura
+d:flowerwall
+
+n:Water magic
+a:Zagura
+d:water_magic
+
+n:Pixel aurora
+a:Zagura
+d:pixel_aurora
 
 n:Squirrel
 a:Zagura
